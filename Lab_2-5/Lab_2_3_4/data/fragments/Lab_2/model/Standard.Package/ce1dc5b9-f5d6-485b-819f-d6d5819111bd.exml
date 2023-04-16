@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="UseMV(2)" version="4">
+  <OBJECT>
+    <ID name="UseMV(2)" mc="Standard.Package" uid="ce1dc5b9-f5d6-485b-819f-d6d5819111bd"/>
+    <PID name="lab_2" mc="Standard.Package" uid="6c127d06-39c3-49ef-9346-19874faf0d1a"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[UseMV(2)]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="UseCV" mc="Standard.Package" uid="ecd5f52b-6936-40d8-9cb4-ec4de29f29ea"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

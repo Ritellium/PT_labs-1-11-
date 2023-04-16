@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ClassDiagrams(4)" version="4">
+  <OBJECT>
+    <ID name="ClassDiagrams(4)" mc="Standard.Package" uid="26819567-a687-43bd-b751-2cb05cf6344a"/>
+    <PID name="lab_2" mc="Standard.Package" uid="6c127d06-39c3-49ef-9346-19874faf0d1a"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[ClassDiagrams(4)]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Common diagram" mc="Standard.Package" uid="9c24ea1c-b786-4b4a-936a-78c3dfb2f3be"/>
+        <COMPID name="CurrentContact Diagram" mc="Standard.Package" uid="0feccecf-6b64-4ddf-949d-45e383f1c053"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

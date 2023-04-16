@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ActionDiagrams(3)" version="4">
+  <OBJECT>
+    <ID name="ActionDiagrams(3)" mc="Standard.Package" uid="96d33f38-d96e-459d-962a-1fad32fcbf24"/>
+    <PID name="lab_2" mc="Standard.Package" uid="6c127d06-39c3-49ef-9346-19874faf0d1a"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[ActionDiagrams(3)]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Log_In" mc="Standard.Package" uid="860f129e-047d-4eab-9573-41a3d03b0c5e"/>
+        <COMPID name="Write_Message" mc="Standard.Package" uid="5d6ab222-0a73-4c78-ad16-44c196321a65"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

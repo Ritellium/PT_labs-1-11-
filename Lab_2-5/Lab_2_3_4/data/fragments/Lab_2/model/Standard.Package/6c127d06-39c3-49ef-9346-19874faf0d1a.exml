@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="lab_2" version="4">
+  <OBJECT>
+    <ID name="lab_2" mc="Standard.Package" uid="6c127d06-39c3-49ef-9346-19874faf0d1a"/>
+    <PID name="Lab_2" mc="Standard.Project" uid="af65cbd1-eee3-4228-a849-e831168ea3dd"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[lab_2]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="UseMV(2)" mc="Standard.Package" uid="ce1dc5b9-f5d6-485b-819f-d6d5819111bd"/>
+        <COMPID name="ActionDiagrams(3)" mc="Standard.Package" uid="96d33f38-d96e-459d-962a-1fad32fcbf24"/>
+        <COMPID name="ClassDiagrams(4)" mc="Standard.Package" uid="26819567-a687-43bd-b751-2cb05cf6344a"/>
+        <COMPID name="DataBaseDiagram(5)" mc="Standard.Package" uid="cbe49875-65b7-44bd-b7aa-9c3b3f193816"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

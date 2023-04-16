@@ -1,0 +1,34 @@
+/* Стили для главной страницы */
+
+h1 {
+color: blue;
+text-align: center;
+}
+
+p {
+font-family: Arial;
+font-size: 16px;
+text-align: center;
+}
+
+.buttons {
+display: flex;
+justify-content: center;
+}
+
+a {
+margin: 10px;
+padding: 10px;
+border: 1px solid black;
+text-decoration: none;
+}
+
+a:hover {
+background-color: yellow;
+}
+
+img.floppa {
+display: block;
+margin-left: auto;
+margin-right: auto;
+}

@@ -1,0 +1,70 @@
+/* profStyle.css */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+.header h1 {
+    text-align: right;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    color: #333333;
+}
+
+.header a {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #333333;
+    text-decoration: none;
+}
+
+.sidebar {
+    width: 200px;
+    height: 100%;
+    background-color: #e0e0e0;
+    position: fixed;
+    left: 0;
+    top: 90;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar li {
+    padding: 10px;
+}
+
+.sidebar a {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #333333;
+    text-decoration: none;
+}
+
+.main {
+    margin-left: 220px;
+    padding: 20px;
+}
+
+.main h2 {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: #333333;
+}
+
+.main img {
+    width: 100px;
+    height: 100px;
+}
+
+.main p {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #333333;
+}

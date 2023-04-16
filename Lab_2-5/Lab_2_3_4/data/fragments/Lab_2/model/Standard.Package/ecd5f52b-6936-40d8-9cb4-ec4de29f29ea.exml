@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="UseCV" version="4">
+  <OBJECT>
+    <ID name="UseCV" mc="Standard.Package" uid="ecd5f52b-6936-40d8-9cb4-ec4de29f29ea"/>
+    <PID name="UseMV" mc="Standard.Package" uid="ce1dc5b9-f5d6-485b-819f-d6d5819111bd"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[UseCV]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="User" mc="Standard.Actor" uid="cd9027df-92a8-490e-aa93-c654023486aa"/>
+        <COMPID name="Settings" mc="Standard.Actor" uid="3d482761-43d3-48dd-ba57-8c818b586971"/>
+        <COMPID name="Contact List" mc="Standard.Actor" uid="61685101-16ce-412b-be77-04dd9c5e7d94"/>
+        <COMPID name="Current contact" mc="Standard.Actor" uid="d746ca57-088e-408a-85b0-76f7e0c7213b"/>
+        <COMPID name="Database" mc="Standard.Actor" uid="728e2a3e-96bb-441a-8683-62a8ae47e26e"/>
+        <COMPID name="Get User Data" mc="Standard.UseCase" uid="b6d399ce-9995-45c9-821a-d87b24b79eb9"/>
+        <COMPID name="View Contacts" mc="Standard.UseCase" uid="b6aabb83-bc3b-4dd5-931c-dddb93adb43c"/>
+        <COMPID name="Add Contact" mc="Standard.UseCase" uid="a3af0337-d03f-4d71-a23b-907a53857e18"/>
+        <COMPID name="Create Groop Chat" mc="Standard.UseCase" uid="573e8358-f779-4627-a4b4-8e7aec3e84d4"/>
+        <COMPID name="Choose Contact" mc="Standard.UseCase" uid="96c8098e-ee84-4346-9d20-d6a8a8cb664f"/>
+        <COMPID name="Sign in" mc="Standard.UseCase" uid="53940d34-2508-421d-9748-78ff8a17ddd3"/>
+        <COMPID name="Log in" mc="Standard.UseCase" uid="0fcf595d-e417-4dd4-925c-1fa1d2715e02"/>
+        <COMPID name="Message Menu" mc="Standard.UseCase" uid="c357cab0-3de7-413e-b7e3-06ffaf559d92"/>
+        <COMPID name="Call Menu" mc="Standard.UseCase" uid="fde3feb8-dadc-4461-8818-1ca43f942d24"/>
+        <COMPID name="Call" mc="Standard.UseCase" uid="83e0c340-302e-4d86-ada3-8662e6677a16"/>
+        <COMPID name="Write Message" mc="Standard.UseCase" uid="a4f4ea72-1ec2-4afe-ae2e-7f315cf02661"/>
+        <COMPID name="Attach Menu" mc="Standard.UseCase" uid="a7f85161-1713-4df4-a986-c929e63008a2"/>
+        <COMPID name="View All Calls" mc="Standard.UseCase" uid="1367dcf1-6fde-42ce-b38c-a4e83640c9cd"/>
+        <COMPID name="Server" mc="Standard.Actor" uid="8143b2d3-60bc-4539-ae54-669891b60319"/>
+        <COMPID name="Save Local Configuration" mc="Standard.UseCase" uid="62e408d0-acd9-46aa-8894-4da9bdc7f990"/>
+        <COMPID name="Communicate Server" mc="Standard.UseCase" uid="a142ec32-59d0-43ce-930c-4f7b45e6685a"/>
+        <COMPID name="CRUD User Data" mc="Standard.UseCase" uid="ed7e02ac-ad6a-48c2-8b9c-9f4d3ff356bb"/>
+        <COMPID name="Interact Other User" mc="Standard.UseCase" uid="3f0ae934-9a28-4eaf-a3ad-a8e26a7b2be3"/>
+        <COMPID name="Action Report" mc="Standard.UseCase" uid="0da4a876-0f0c-4324-bf91-f8ccf28d8d0e"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="UseCV Use Case diagram" mc="Standard.UseCaseDiagram" uid="28c76c5d-0340-4b1a-aaf5-5edf1f0242ff"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

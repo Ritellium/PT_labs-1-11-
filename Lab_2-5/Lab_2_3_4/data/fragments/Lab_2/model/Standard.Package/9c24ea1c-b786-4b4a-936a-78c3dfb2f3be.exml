@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Common diagram" version="4">
+  <OBJECT>
+    <ID name="Common diagram" mc="Standard.Package" uid="9c24ea1c-b786-4b4a-936a-78c3dfb2f3be"/>
+    <PID name="ClassDiagrams" mc="Standard.Package" uid="26819567-a687-43bd-b751-2cb05cf6344a"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Common diagram]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedInformationFlow">
+        <OBJECT>
+          <ID name="InformationFlow" mc="Standard.InformationFlow" uid="08f81a33-cc04-4b3d-8139-620bcb11407e"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[InformationFlow]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <ID name="Settings" mc="Standard.Class" uid="6334dcd7-ceee-48d9-96ff-8b52dc9e563d"/>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <ID name="Server" mc="Standard.Class" uid="bb45f724-d20d-4a49-9d46-55bbd1c72bdf"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedElement">
+        <COMPID name="User" mc="Standard.Class" uid="15bb507f-a02e-41d2-823c-ee09f7054798"/>
+        <COMPID name="Settings" mc="Standard.Class" uid="6334dcd7-ceee-48d9-96ff-8b52dc9e563d"/>
+        <COMPID name="Calls List" mc="Standard.Class" uid="aa492d4a-698f-4191-a0b2-8ce8aa4468ee"/>
+        <COMPID name="Messages List" mc="Standard.Class" uid="326742b8-c25a-4bcc-98ee-546aa58dea5c"/>
+        <COMPID name="Contact" mc="Standard.Class" uid="2213e8d1-402f-451c-9128-0fdbf883322c"/>
+        <COMPID name="Server" mc="Standard.Class" uid="bb45f724-d20d-4a49-9d46-55bbd1c72bdf"/>
+        <COMPID name="Database" mc="Standard.Class" uid="110cd8c0-27c8-4385-b322-a133bd559599"/>
+        <COMPID name="Call" mc="Standard.Class" uid="f132e72c-9b69-478b-b21a-75bad2b82104"/>
+        <COMPID name="Message" mc="Standard.Class" uid="9fcde9a1-ed1f-443c-9a8f-f1ea2addc02d"/>
+        <COMPID name="Contact List" mc="Standard.Class" uid="d6083c53-167d-4df1-9c95-4131cccc9f7f"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Package Class diagram" mc="Standard.ClassDiagram" uid="97d3712b-c3aa-4f19-b8c7-5f1cf4a8cfac"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

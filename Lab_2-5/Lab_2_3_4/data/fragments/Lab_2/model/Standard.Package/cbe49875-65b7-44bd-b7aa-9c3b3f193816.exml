@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="DataBaseDiagram(5)" version="4">
+  <OBJECT>
+    <ID name="DataBaseDiagram(5)" mc="Standard.Package" uid="cbe49875-65b7-44bd-b7aa-9c3b3f193816"/>
+    <PID name="lab_2" mc="Standard.Package" uid="6c127d06-39c3-49ef-9346-19874faf0d1a"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[DataBaseDiagram(5)]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Product">
+        <COMPID name="DataBaseDiagram Class diagram" mc="Standard.ClassDiagram" uid="8474ca86-48e1-4c2b-b3f4-eeffd3d53fae"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

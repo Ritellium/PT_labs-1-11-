@@ -1,0 +1,40 @@
+<!-- register.html -->
+<html>
+<head>
+    <title>Регистрация на floppa messenger</title>
+    <link rel="stylesheet" href="styleReg.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Регистрация на floppa messenger</h1>
+        <p>Заполните следующие поля, чтобы создать свой аккаунт на floppa messenger.</p>
+        <form action="P_profile.html" method="post">
+            <div class="form-group">
+                <label for="username">Имя пользователя:</label>
+                <input type="text" id="username" name="username" placeholder="Введите имя пользователя" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Введите email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Пароль:</label>
+                <input type="password" id="password" name="password" placeholder="Введите пароль" required>
+            </div>
+            <div class="form-group">
+                <label for="confirm-password">Подтвердите пароль:</label>
+                <input type="password" id="confirm-password" name="confirm-password" placeholder="Подтвердите пароль" required>
+            </div>
+            <div class="form-group">
+                <input type="checkbox" id="agree-terms" name="agree-terms" required>
+                <label for="agree-terms">Я согласен с условиями использования floppa messenger</label>
+            </div>
+            <div class="form-group">
+                <button type="submit">Зарегистрироваться</button>
+            </div>
+        </form>
+        <p>Уже есть аккаунт? <a href="P_authorise.html">Войдите здесь</a>.</p>
+        <p>Вернуться на главную страницу? <a href="P_index.html">Нажмите здесь</a>.</p>
+    </div>
+</body>
+</html>

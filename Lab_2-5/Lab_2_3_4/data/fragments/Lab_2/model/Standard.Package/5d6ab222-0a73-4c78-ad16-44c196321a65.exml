@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Write_Message" version="4">
+  <OBJECT>
+    <ID name="Write_Message" mc="Standard.Package" uid="5d6ab222-0a73-4c78-ad16-44c196321a65"/>
+    <PID name="ActionDiagrams" mc="Standard.Package" uid="96d33f38-d96e-459d-962a-1fad32fcbf24"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Write_Message]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Activity" mc="Standard.Activity" uid="1daa4e5c-130c-4c80-9fe6-4a625e499846"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
