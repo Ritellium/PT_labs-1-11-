@@ -1,0 +1,28 @@
+/* style.css */
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+nav {
+background-color: #333;
+}
+
+nav ul {
+display: flex;
+list-style: none;
+}
+
+nav ul li {
+padding: 10px;
+}
+
+nav ul li a {
+color: white;
+text-decoration: none;
+}
+
+#app {
+padding: 20px;
+}

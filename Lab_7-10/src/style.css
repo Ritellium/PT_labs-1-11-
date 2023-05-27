@@ -1,0 +1,201 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+#container {
+    background-color: darkgray;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#view {
+    background-color: cornsilk;
+    width: 80%;
+    height: 80%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* стили для вида входа */
+.logButtons {
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    flex-direction: row;
+}
+
+.login input {
+    padding: 15px;
+    width: 50%;
+}
+
+.login button {
+    margin: 15px;
+    padding: 15px;
+    width: 30%;
+}
+
+.login a {
+    margin: 15px;
+    padding: 15px;
+    border: 2px solid black;
+    width: 70%;
+}
+
+/* стили для вида регистрации */
+
+.reg {
+    display: flex;
+    flex-direction: column;
+}
+
+.reg input {
+    padding: 15px;
+    margin: auto;
+    width: 50%;
+}
+
+.reg button {
+    margin: auto;
+    padding: 15px;
+    width: auto;
+}
+
+.reg a {
+    margin: auto;
+    padding: 15px;
+    border: 2px solid black;
+    width: auto;
+}
+
+/* стили для вида главной */
+.naviPanel {
+    width: 60%;
+    background-color: chocolate;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.naviElem {
+    margin: 15px;
+}
+
+.userSelect {
+    display: flex;
+    flex-direction: column;
+}
+
+.userSelect div {
+    background-color: darkgray;
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+}
+
+.userSelect div h1 {
+    margin: 10px;
+}
+
+.messengerDiv {
+    height: 70%;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.main #chats {
+    margin: 20px;
+    background-color: bisque;
+    width: 30%;
+    overflow-y: scroll;
+}
+
+.main #chats ul {
+    list-style-type: none;
+}
+
+.main #chats li {
+    background-color: khaki;
+    margin: 10px;
+    padding: 5px;
+}
+
+.main #chats li.active {
+    background-color: lightblue;
+}
+
+.main #chat {
+    margin: 20px;
+    background-color: bisque;
+    overflow-y: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main #chat #header {
+    height: 10%;
+}
+
+.main #chat #header h1 {
+    text-align: center;
+}
+
+.main #chat #messages {
+    overflow-y: scroll;
+    height: 80%;
+}
+
+.main #chat #messages ul {
+    list-style-type: none;
+}
+
+.main #chat #messages li {
+
+}
+
+.main #chat #messages li span {
+    display: inline-block;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.main #chat #messages li.me span {
+    background-color: green;
+    color: white;
+    margin-left: auto;
+}
+
+.main #chat #messages li.other span {
+    background-color: white;
+    color: black;
+    margin-right: auto;
+}
+
+.main #chat #footer {
+    height: 10%;
+}
+
+.main #chat #footer input {
+    width: 80%;
+}
+
+.main #chat #footer button {
+    width: 20%;
+}
