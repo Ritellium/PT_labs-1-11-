@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Введите значение угла:"
+        android:textSize="24sp"
+        android:layout_gravity="center_horizontal"/>
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Радианы:"
+            android:textSize="18sp"/>
+
+        <EditText
+            android:id="@+id/radiansEditText"
+            android:layout_width="154dp"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal" />
+
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Угловые минуты: "
+            android:textSize="18sp"/>
+
+        <EditText
+            android:id="@+id/minutesEditText"
+            android:layout_width="138dp"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal" />
+
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Угловые секунды: "
+            android:textSize="18sp"/>
+
+        <EditText
+            android:id="@+id/secondsEditText"
+            android:layout_width="139dp"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal" />
+
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Градусы: "
+            android:textSize="18sp"/>
+
+        <EditText
+            android:id="@+id/degreesEditText"
+            android:layout_width="133dp"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal" />
+
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Грады: "
+            android:textSize="18sp"/>
+
+        <EditText
+            android:id="@+id/gradsEditText"
+            android:layout_width="133dp"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal" />
+
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Тысячные: "
+            android:textSize="18sp"/>
+
+        <EditText
+            android:id="@+id/milsEditText"
+            android:layout_width="143dp"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal" />
+
+    </LinearLayout>
+
+</LinearLayout>
